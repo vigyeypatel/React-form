@@ -298,7 +298,7 @@ export default class Form extends Component<{}, AppStats> {
         console.log(this.state);
         return (
           <React.Fragment>
-            <h1>Form</h1>
+            <h1>Form Submission</h1>
             <main>
             <form onSubmit={this.handleSubmit}>
              <div>
