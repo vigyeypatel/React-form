@@ -1,0 +1,40 @@
+.buttondiv{
+    display: inline-block;
+    align-content: center;
+}
+
+
+div{
+    margin: 5px;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+main{
+ border: 2px solid black;
+ margin:10px;
+ padding:20px;
+ box-shadow: 10px 10px 5px grey;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    background-color: #008CBA;
+    padding: 12px 28px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
